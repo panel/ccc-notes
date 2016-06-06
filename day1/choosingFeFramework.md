@@ -36,29 +36,36 @@
 - ng: HTML
 - ember: HTML/handlebars.js
 - React: JSX (pure js)
+
 ### Testing
 - All the same, basically.
+
 ### Routing
 - Ember router is the best
 - ng
   - built in router which is OK
   - solid 3rd party angular-ui-router
 - React: 3rd party router based on ember's
+
 ### Tooling
 - Ember has rails like Ember CLI
 - ng and react have 3rd party generators
 - ng2 working with ember on developing cli
+
 ### Components
 - ng: directives
 - everything else calls 'em components
+
 ### Client Side ORM
 - Ember has ember data to abstract REST as ORM
 - ng2 will have the same thing as well
+
 ### Native app
 - React Native will compile down to native apps
 - NativeScript and React Native bypasses web view. hooks directly into the natvie UI
 - ng is working w/ Telerik on NativeScript
 - ember is ????
+
 ### Convention vs. Config
 - Ember:
   - Everything must have a route. Routes connects Everything
@@ -74,3 +81,4 @@
 - The main criteria are non-technical: past experience, institutional knowledge.
 
 ## Conclusion
+EVERYTHING IS THE BEST
