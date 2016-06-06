@@ -105,3 +105,29 @@ Decouple the deployments (code in production) from release (available to users)
   - Requires database to be both backwards and forward compatible
 
 ### Canary Release
+- Like blue-green, but only route a fraction of users to new version
+- Eventually get 100% traffic on the new version and kill the old version
+
+### Feature Toggles
+- Decouples release from deployments
+- [Martin Fowler on Feature Toggles](- http://martinfowler.com/articles/feature-toggles.html)
+
+### Dark Launching
+- Enables testing in production
+- Finds more edge cases
+
+### Phoenix Servers
+- Snowflake Server
+  - Unique
+  - Evolves as users jump in and make changes
+  - Difficult to figure out reasoning behind current state
+- Phoenix Server
+  - All changes defined in code
+  - Additional changes can be applied in code
+  - You can kill the server and apply the diff
+  - Uses chef/ansible/salt/puppet
+
+### Immutable Servers
+- Infrastructure components do not change.
+- Servers and boxes get thrown away and new one is published
+- AMI as an artifact/Container as an artifact.
