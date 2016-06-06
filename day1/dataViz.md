@@ -60,3 +60,8 @@ Notes:
 - User MF-GE if possible
 - Keep labels with data
 - Maximize data density
+
+## Books
+- Don't Make Me Think - Krug
+- Tufte
+- WSJ Visualization Book/Cookbook
