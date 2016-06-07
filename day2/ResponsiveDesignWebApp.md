@@ -17,6 +17,8 @@
 ## Responsive Design: A history
 - Coined by [Ethan Marcotte in 2010](http://alistapart.com/article/responsive-web-design)
 - Responsive Design has older origin
+  - Started with newspapers
+  - Needed to reshuffle content to make smaller / more contained for subway reading
 - Responsive design works great for website with (semi) static content
 
 ## Different Appliance
@@ -36,6 +38,15 @@
 - Adaptive Design: Different layouts that are chosen at run time based on how the resource is being accessed
 
 ## Adaptive Design
+
+## Universal Apps
+- Responsive Design + Adaptive Design
+- Separate view logic from business logic
+  - At runtime
+- Device profiles
+  - Choose different views based on design
+- Device themes
+  - Look like the native UI (Android / iOS)
 
 ### Feature Prioritization
 - Prioritize features that are unique to a certain appliance
