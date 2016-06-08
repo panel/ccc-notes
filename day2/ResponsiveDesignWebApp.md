@@ -16,6 +16,7 @@
 
 ## Responsive Design: A history
 - Coined by [Ethan Marcotte in 2010](http://alistapart.com/article/responsive-web-design)
+- Happened to time up with release of the iPad
 - Responsive Design has older origin
   - Started with newspapers
   - Needed to reshuffle content to make smaller / more contained for subway reading
@@ -80,3 +81,5 @@
 
 ## How to generalize this?
 _not from presentation_
+
+- The web development community has bought really hard into responsive design and is really hesitant to give it up.
